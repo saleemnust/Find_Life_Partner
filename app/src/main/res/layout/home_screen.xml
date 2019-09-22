@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />-->
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="612dp"
+        android:layout_weight="0.08"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/menuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.24"
+            android:background="@color/button_color"
+            android:drawableTop="@drawable/icons_menu_24"
+            android:text="Menu"
+            android:textColor="@color/button_text_color"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/chatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="0.24"
+            android:background="@color/button_color"
+            android:drawableTop="@drawable/icons_menu_24"
+            android:text="Chat"
+            android:textColor="@color/button_text_color"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="0.24"
+            android:background="@color/button_color"
+            android:drawableTop="@drawable/icons_menu_24"
+            android:text="Profile"
+            android:textColor="@color/button_text_color"
+            android:textSize="9sp" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_weight="0.24"
+            android:background="@color/button_color"
+            android:drawableTop="@drawable/icons_menu_24"
+            android:text="Home"
+            android:textColor="@color/button_text_color"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
