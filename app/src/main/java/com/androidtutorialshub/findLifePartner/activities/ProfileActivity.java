@@ -1,43 +1,17 @@
-package com.androidtutorialshub.loginregister.activities;
+package com.androidtutorialshub.findLifePartner.activities;
 
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.os.AsyncTask;
-import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.AppCompatTextView;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.support.v7.app.ActionBar;
-import android.view.View;
-import android.widget.EditText;
-import android.view.View;
 import android.view.View.OnClickListener;
 
-import com.androidtutorialshub.loginregister.R;
-import com.androidtutorialshub.loginregister.adapters.UsersRecyclerAdapter;
-import com.androidtutorialshub.loginregister.model.User;
-import com.androidtutorialshub.loginregister.sql.DatabaseHelper;
-
-
-import java.util.ArrayList;
-import java.util.List;
-
-import com.androidtutorialshub.loginregister.R;
+import com.androidtutorialshub.findLifePartner.R;
+import com.androidtutorialshub.findLifePartner.sql.DatabaseHelper;
 
 
 public class ProfileActivity extends AppCompatActivity {

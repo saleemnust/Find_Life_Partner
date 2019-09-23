@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister.activities;
+package com.androidtutorialshub.findLifePartner.activities;
 
 import android.content.Context;
 import android.content.SharedPreferences;

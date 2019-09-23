@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.androidtutorialshub.loginregister">
+    package="com.androidtutorialshub.findLifePartner">
 
     <application
         android:allowBackup="true"
@@ -10,7 +10,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".activities.HomeScreen">
+            android:name="com.androidtutorialshub.findLifePartner.activities.HomeScreen">
             <!--android:theme="@style/AppTheme"> -->
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -20,13 +20,13 @@
         </activity>
 
         <activity
-            android:name=".activities.SplashScreen"
+            android:name="com.androidtutorialshub.findLifePartner.activities.SplashScreen"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.EditProfile"
+            android:name="com.androidtutorialshub.findLifePartner.activities.EditProfile"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.LoginActivity"
+            android:name="com.androidtutorialshub.findLifePartner.activities.LoginActivity"
             android:screenOrientation="portrait">
 <!--            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,13 +36,13 @@
         </activity>
 
         <activity
-            android:name=".activities.RegisterActivity"
+            android:name="com.androidtutorialshub.findLifePartner.activities.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.UsersListActivity"
+            android:name="com.androidtutorialshub.findLifePartner.activities.UsersListActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.ProfileActivity"
+            android:name="com.androidtutorialshub.findLifePartner.activities.ProfileActivity"
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

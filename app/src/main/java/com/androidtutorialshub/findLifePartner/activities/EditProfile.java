@@ -1,4 +1,4 @@
-package com.androidtutorialshub.loginregister.activities;
+package com.androidtutorialshub.findLifePartner.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,8 +7,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.androidtutorialshub.loginregister.R;
-import com.androidtutorialshub.loginregister.sql.DatabaseHelper;
+import com.androidtutorialshub.findLifePartner.R;
+import com.androidtutorialshub.findLifePartner.sql.DatabaseHelper;
 
 public class EditProfile extends AppCompatActivity {
     TextView name;

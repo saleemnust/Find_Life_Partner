@@ -1,8 +1,6 @@
-package com.androidtutorialshub.loginregister.activities;
+package com.androidtutorialshub.findLifePartner.activities;
 
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.Snackbar;
 import android.support.design.widget.TextInputEditText;
@@ -11,12 +9,11 @@ import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.support.v7.widget.AppCompatTextView;
-import android.util.Log;
 import android.view.View;
 
-import com.androidtutorialshub.loginregister.R;
-import com.androidtutorialshub.loginregister.helpers.InputValidation;
-import com.androidtutorialshub.loginregister.sql.DatabaseHelper;
+import com.androidtutorialshub.findLifePartner.R;
+import com.androidtutorialshub.findLifePartner.helpers.InputValidation;
+import com.androidtutorialshub.findLifePartner.sql.DatabaseHelper;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     private final AppCompatActivity activity = LoginActivity.this;

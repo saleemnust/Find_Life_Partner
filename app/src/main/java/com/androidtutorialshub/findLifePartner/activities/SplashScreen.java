@@ -1,12 +1,11 @@
-package com.androidtutorialshub.loginregister.activities;
+package com.androidtutorialshub.findLifePartner.activities;
 
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 
-import com.androidtutorialshub.loginregister.R;
+import com.androidtutorialshub.findLifePartner.R;
 
 public class SplashScreen extends Activity {
     protected boolean _active = true;
